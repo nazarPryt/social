@@ -1,0 +1,92 @@
+.RegisterWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+
+    .inner {
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 10px;
+        background-color: #fff;
+        overflow: hidden;
+
+        .left {
+            flex: 1;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+            background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+            url('./register-bg.jpg') center;
+            background-size: cover;
+            color: white;
+
+            h1 {
+                font-size: 72px;
+                margin: 0;
+            }
+
+            span {
+                font-size: 13px;
+            }
+
+            button {
+                cursor: pointer;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: black;
+                padding: 10px 20px;
+                background-color: wheat;
+                border: none;
+            }
+
+            button:hover {
+                background-color: goldenrod;
+                transition: 0.1s linear;
+            }
+        }
+
+        .right {
+            flex: 1;
+            padding: 30px;
+            text-align: center;
+
+            h3 {
+                font-size: 40px;
+                color: dimgray;
+                margin: 0 0 30px 0;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            input {
+                font-size: 20px;
+                padding: 10px;
+                border: none;
+                border-bottom: 2px solid black;
+            }
+
+            button {
+                cursor: pointer;
+                text-transform: uppercase;
+                color: white;
+                padding: 10px 20px;
+                background-color: #63a83a;
+                border: none;
+            }
+
+            button:hover {
+                background-color: darkgreen;
+                transition: 0.1s linear;
+            }
+        }
+    }
+}
