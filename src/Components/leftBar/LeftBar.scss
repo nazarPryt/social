@@ -1,7 +1,14 @@
 .leftBar {
     flex: 2;
     padding: 20px 30px;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    overflow: scroll;
 
+    &::-webkit-scrollbar{
+        display: none;
+    };
 
     .container {
 
@@ -46,6 +53,7 @@
 
                 }
             }
+
             hr {
                 background-color: whitesmoke;
                 height: 1px;

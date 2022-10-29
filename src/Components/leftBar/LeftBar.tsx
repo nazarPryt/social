@@ -82,6 +82,74 @@ const LeftBar = () => {
                     </div>
                     <hr/>
                 </div>
+
+
+
+                <div className="menu">
+                    <span>Other</span>
+
+                    <div className="item">
+                        <img src="https://via.placeholder.com/150" alt="item"/>
+                        <span>Item</span>
+                    </div>
+                    <div className="item">
+                        <img src="https://via.placeholder.com/150" alt="item"/>
+                        <span>Item</span>
+                    </div>
+                    <div className="item">
+                        <img src="https://via.placeholder.com/150" alt="item"/>
+                        <span>Item</span>
+                    </div>
+                    <hr/>
+                </div><div className="menu">
+                <span>Other</span>
+
+                <div className="item">
+                    <img src="https://via.placeholder.com/150" alt="item"/>
+                    <span>Item</span>
+                </div>
+                <div className="item">
+                    <img src="https://via.placeholder.com/150" alt="item"/>
+                    <span>Item</span>
+                </div>
+                <div className="item">
+                    <img src="https://via.placeholder.com/150" alt="item"/>
+                    <span>Item</span>
+                </div>
+                <hr/>
+            </div><div className="menu">
+                <span>Other</span>
+
+                <div className="item">
+                    <img src="https://via.placeholder.com/150" alt="item"/>
+                    <span>Item</span>
+                </div>
+                <div className="item">
+                    <img src="https://via.placeholder.com/150" alt="item"/>
+                    <span>Item</span>
+                </div>
+                <div className="item">
+                    <img src="https://via.placeholder.com/150" alt="item"/>
+                    <span>Item</span>
+                </div>
+                <hr/>
+            </div><div className="menu">
+                <span>Other</span>
+
+                <div className="item">
+                    <img src="https://via.placeholder.com/150" alt="item"/>
+                    <span>Item</span>
+                </div>
+                <div className="item">
+                    <img src="https://via.placeholder.com/150" alt="item"/>
+                    <span>Item</span>
+                </div>
+                <div className="item">
+                    <img src="https://via.placeholder.com/150" alt="item"/>
+                    <span>Item</span>
+                </div>
+                <hr/>
+            </div>
             </div>
         </div>
     );
